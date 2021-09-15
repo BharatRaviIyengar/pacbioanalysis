@@ -29,7 +29,7 @@ BEGIN{
 
 
 	## GENETIC CODE ##
-	while((getline < "/home/bharat/Documents/Lab_resources/Data/Selection/PacSeq/genetic_code.txt") > 0)
+	while((getline < "genetic_code.txt") > 0)		# provided with this code
 		prot[$1]=$3
 
 }
